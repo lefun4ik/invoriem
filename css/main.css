@@ -154,6 +154,9 @@ body._lock {
 	line-height: 180%;
 	color: #114455;
 }
+.menu__link:hover {
+	text-decoration: underline;
+}
 @media (min-width: 767px) {
 	.menu__list > li {
 		padding: 10px 0;
