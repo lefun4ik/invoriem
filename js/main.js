@@ -49,3 +49,10 @@ if (iconMenu) {
 		menuBody.classList.toggle('_active');
 	});
 }
+const play = document.querySelector('.invoriem__play');
+const video = document.querySelector('.invoriem__video video');
+play.addEventListener('click', () => {
+	video.play();
+	video.setAttribute('controls', 'controls');
+	play.classList.add('invoriem__play--hidden');
+})
