@@ -2,6 +2,31 @@ $(document).ready(function(){
   $(".owl-carousel").owlCarousel({
 		dots: false,
 		margin: 48,
+		// autoplay: true,
+		// autoplayTimeout: 5000,
+		responsive:{
+			0:{
+				items: 1,
+				margin: 32
+			},
+			374:{
+				items:1.32,
+				margin: 32
+			},
+			479:{
+				items:1.8,
+				margin: 32
+			},
+			600:{
+				items:2
+			},
+			991:{
+				items:2.42
+			},
+			1921:{
+				items:3
+		}
+		},
 		loop: true
 	});
 });
